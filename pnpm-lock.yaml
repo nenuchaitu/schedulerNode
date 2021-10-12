@@ -4,6 +4,7 @@ dependencies:
   nodemon: 2.0.7
   sqlite: 4.0.19
   sqlite3: 5.0.2
+  uuid: 8.3.2
 lockfileVersion: 5.2
 packages:
   /@sindresorhus/is/0.14.0:
@@ -1866,6 +1867,11 @@ packages:
     optional: true
     resolution:
       integrity: sha512-HjSDRw6gZE5JMggctHBcjVak08+KEVhSIiDzFnT9S9aegmp85S/bReBVTb4QTFaRNptJ9kuYaNhnbNEOkbKb/A==
+  /uuid/8.3.2:
+    dev: false
+    hasBin: true
+    resolution:
+      integrity: sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==
   /vary/1.1.2:
     dev: false
     engines:
@@ -1934,3 +1940,4 @@ specifiers:
   nodemon: 2.0.7
   sqlite: 4.0.19
   sqlite3: 5.0.2
+  uuid: ^8.3.2

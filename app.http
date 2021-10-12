@@ -1,0 +1,15 @@
+###
+GET http://localhost:3001/events/
+###
+POST http://localhost:3001/events/
+Content-Type: application/json
+
+{
+    "id": "470d5f29-ec61-4a9e-bc95-224fe8f46757",
+    "eventName": "starting workout",
+    "eventDescription": "workout with weight weekly once",
+    "startTime": "05:30",
+    "endTime": "06:30",
+    "weekDay": "3",
+}
+###
